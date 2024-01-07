@@ -1,0 +1,228 @@
+body{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    padding: auto;
+     font-family: 'Roboto', sans-serif;
+}
+.iPhone11{
+    background: #FFF;
+    width: 375px;
+    height: 812px;
+    position: relative;
+    border: 2px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head{
+    margin-bottom: 3px;
+    color: #626262;
+    /* text-align: start; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.navbar{
+width: 375px;
+height: 88px;
+flex-shrink: 0;
+background: #FFFC00;
+position: absolute;
+bottom: 724px;
+display: flex;
+text-align: right;
+justify-content: end;
+align-items: center;
+}
+#logo{
+    padding: 15px;
+}
+.main_title{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 27% 0px 7% 0px;
+}
+.login_btn{
+border-radius: 50px;
+width: 228px;
+height: 48px;
+flex-shrink: 0;
+}
+.btn1,.btn1 a{
+    background: #000;
+    color: #FFFC00;
+}
+.login_btn a{
+text-decoration: none;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.sub_title a{
+color: #000;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 22px;
+text-decoration: none;
+}
+#connector{
+color: #BBB;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/* form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  /* input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    outline: none;
+  } */ 
+.container{
+width: 263px;
+/* height: 19px; */
+flex-shrink: 0;
+animation-duration: 0ms;
+box-sizing: border-box;
+}
+.username{
+    color: #BBB;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0px;
+    margin: 0px;
+}
+.i11{
+    font-size: 12px;
+}
+.usernameVector{
+stroke-width: 1px;
+stroke: #000;
+}
+/* .cont2{
+    position: absolute;
+    top: 434px;
+    bottom: 359px;
+    right: 56px;
+    left: 56px;
+}
+.cont1{
+    position: absolute;
+    top: 372px;
+    right: 56px;
+    bottom: 421px;
+    left: 56px;
+} */
+.cont1{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.cont2{
+    margin-bottom: 20%;
+}
+/* .forget{
+color: #0D46D9;
+font-family: HelveticaNeue;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+top: 468px;
+left: 235px;
+right: 56px;
+bottom: 332px;
+} */
+.forget{
+    color: #0D46D9;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: end;
+}
+.btn2,.btn2 a{
+    background: #BBB;
+    color: #FFF;
+    border: none;
+}
+.SignUpMessage{
+color: #626262;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 10%;
+}
+.SignUpMessage strong{
+    color: #000;
+}
+/* iphone 11 pro / X -2 */
+.user{
+color: #000;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 0px;
+margin: 0px;
+margin-top: 5px;
+margin-bottom: -6px;
+}
+#i11_2{
+    color: #BBB;
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.cont1_2{
+    margin-top: 1.5%;
+    margin-bottom: 9.7%;
+}
+.username_vector1{
+    vertical-align: middle;
+}
+.cont1_3{
+    margin-top: 1.5%;
+    margin-bottom: 6%;
+}
+.btn2_3, .btn2_3 a{
+     background-color: #FFFC00;
+     color: #000;
+     border: none;
+}
+.iphone11_X2{
+    transition: border 0.3s ease-in-out;
+
+}
+.clicked {
+    border: 2px solid #007BFF;
+
+    animation-duration: 0ms;    
+    padding: 10px; /* Increase padding to make it a little bigger */
+}
+.cont1 {
+    cursor: pointer;
+}
+.header{
+    position: absolute;
+    top: -45px;
+}
